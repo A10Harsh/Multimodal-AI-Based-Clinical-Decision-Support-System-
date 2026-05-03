@@ -1,4 +1,4 @@
-# 🧠 Brain Tumor Detection & Classification Using Deep Learning
+# Brain Tumor Detection & Classification Using Deep Learning
 
 > An ensemble deep learning system for automated brain tumor classification from MRI scans, with Explainable AI (Grad-CAM) integration.
 
@@ -10,22 +10,22 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project presents a comprehensive deep learning framework for **detecting and classifying brain tumors** from MRI images into four categories:
 
 | Class | Description |
 |---|---|
-| 🔴 Glioma | Tumor arising from glial cells |
-| 🟠 Meningioma | Tumor from meninges (brain lining) |
-| 🟡 Pituitary | Tumor in the pituitary gland |
-| 🟢 No Tumor | Healthy brain |
+|  Glioma | Tumor arising from glial cells |
+| Meningioma | Tumor from meninges (brain lining) |
+|  Pituitary | Tumor in the pituitary gland |
+|  No Tumor | Healthy brain |
 
 The system combines **transfer learning**, **fine-tuning**, **ensemble methods** (soft voting + stacking), and **Grad-CAM** explainability into a unified clinical decision-support framework.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 Dataset (7,200 MRI Images)
@@ -85,7 +85,7 @@ Preprocessing & Augmentation
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 - **Total Images:** 7,200 MRI scans
 - **Classes:** 4 (Glioma, Meningioma, Pituitary, No Tumor)
@@ -99,7 +99,7 @@ Preprocessing & Augmentation
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -170,7 +170,7 @@ python explainability/gradcam.py --image path/to/mri.jpg --model vgg16
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Preprocessing Pipeline
 - **Resize** — Images resized to model-specific input dimensions
@@ -195,7 +195,7 @@ Gradient-weighted Class Activation Maps highlight the MRI regions most influenti
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |---|---|
@@ -225,7 +225,7 @@ Training and validation accuracy/loss curves are available in `results/training_
 
 ---
 
-## 📚 References
+## References
 
 1. Pereira et al. — Brain Tumor Segmentation Using CNNs in MRI Images, *IEEE Trans. Medical Imaging*, 2016
 2. Filatov & Yar — Brain Tumor Diagnosis via Pre-Trained CNNs, *arXiv:2208.00768*, 2022

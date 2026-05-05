@@ -119,7 +119,7 @@ def preprocess_for_model(img_path, model_name):
 brain_models = load_ensemble()
 
 # Run a test
-test_img = "pituitary.jpeg" # Replace with your image path
+test_img = "./MRI-img/notumur.jpg" # Replace with your image path
 if os.path.exists(test_img):
     final_label, probabilities = run_ensemble_inference(test_img, brain_models)
 else:
